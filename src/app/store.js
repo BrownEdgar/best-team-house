@@ -1,7 +1,12 @@
-const { configureStore } = require('@reduxjs/toolkit');
+import { configureStore } from '@reduxjs/toolkit';
+import navigationSlice from '../features/navigationSlice';
+import headerSlice from '../features/headerSlice';
 
 const store = configureStore({
-  reducer: {}
+  reducer: {
+    navigation:navigationSlice,
+    header:headerSlice
+  }
 })
 
 export default store

@@ -1,0 +1,118 @@
+$price-color: #FB5E16;
+$title-color: #1E2138;
+$border-color: #C4C4C4;
+$options-color: #646464;
+$background-color: #171B2B;
+$text-color: #fff;
+
+.HeaderBG {
+  background-color: $background-color;
+  color: $text-color;
+  background-size: 42% auto;
+  background-image: url(../../../public/header.jpg);
+  background-repeat: no-repeat;
+  background-position: right;
+
+  .Header {
+    display: flex;
+    justify-content: space-between;
+    height: 861px;
+    margin: 0 auto;
+
+    &__left {
+      width: 58%;
+      display: flex;
+      flex-direction: column;
+      gap: 46px;
+      margin-top: 20px;
+    }
+
+    &__content {
+      margin-top: 80px;
+      width: 80%;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+
+      h3 {
+        font-size: 20px;
+        text-transform: uppercase;
+      }
+
+      p {
+        font-size: 18px;
+      }
+
+      h1 {
+        font-size: 60px;
+        text-transform: capitalize;
+      }
+    }
+
+    &__right {
+      width: 42%;
+    }
+
+    &__buttons {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+      color: $background-color;
+      margin-top: 40px;
+      justify-content: flex-end;
+
+      .signin {
+        border: none;
+        background-color: transparent;
+        padding: 8px 20px;
+        font-weight: 600;
+        cursor: pointer;
+      }
+
+      .register {
+        border: 1.5px solid black;
+        padding: 8px 20px;
+        background-color: transparent;
+        transition: 200ms;
+        font-weight: 600;
+        cursor: pointer;
+
+        &:hover {
+          background-color: $background-color;
+          color: $text-color;
+        }
+      }
+    }
+
+    &__form {
+      position: relative;
+      width: 65%;
+
+      input {
+        width: 100%;
+        font-size: 18px;
+        padding: 15px 25px;
+        border-radius: 10px;
+        border: none;
+
+        &:focus {
+          outline: none;
+        }
+      }
+
+      button {
+        border: none;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        right: 10px;
+        background-color: $price-color;
+        color: $text-color;
+        padding: 12px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+    }
+  }
+}
