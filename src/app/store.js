@@ -1,7 +1,12 @@
-const { configureStore } = require('@reduxjs/toolkit');
+import { configureStore } from '@reduxjs/toolkit';
+import counterSlice from '../features/counterSlice';
+import housesSlice from '../features/houses/housesSlice';
 
 const store = configureStore({
-  reducer: {}
+  reducer: {
+    counter: counterSlice,
+    houses: housesSlice
+  }
 })
 
 export default store
