@@ -1,9 +1,9 @@
 import { configureStore } from '@reduxjs/toolkit';
-import housesSlice from '../features/houses/housesSlice';
+import footerSlice from '../features/footer/footerSlice';
 
 const store = configureStore({
   reducer: {
-    houses: housesSlice
+    footer: footerSlice
   }
 })
 
