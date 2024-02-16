@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Outfit", sans-serif;
+}
+
+.Sliders {
+  background-color: #f2f2f2;
+  .subtitle {
+    padding-top: 15px;
+  }
+  .slick-slider {
+    max-width: 800px;
+    margin: 0 auto;
+    .slick-prev:before,
+    .slick-next:before {
+      display: none;
+    }
+
+    .slick-next,
+    .slick-prev {
+      color: #f06d2c;
+      width: 20px;
+      height: 20px;
+      font-size: 32px;
+      display: block;
+      z-index: 1;
+    }
+    .item {
+      height: 500px;
+      display: flex !important;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      .item__stars {
+        color: #ffa901;
+        i {
+          font-size: 20px;
+          margin: 0 4px;
+        }
+      }
+
+      .description {
+        align-content: center;
+        text-align: center;
+        padding: 10px 55px;
+        line-height: 23px;
+      }
+      .position {
+        margin-bottom: 10px;
+        font-size: 18px;
+        font-weight: 400;
+      }
+      img {
+        width: 140px;
+      }
+    }
+  }
+}
