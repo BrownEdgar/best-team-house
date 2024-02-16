@@ -100,19 +100,6 @@ $text-color: #fff;
           outline: none;
         }
       }
-
-      button {
-        border: none;
-        position: absolute;
-        top: 50%;
-        transform: translateY(-50%);
-        right: 10px;
-        background-color: $price-color;
-        color: $text-color;
-        padding: 12px 20px;
-        border-radius: 5px;
-        cursor: pointer;
-      }
     }
   }
 }
