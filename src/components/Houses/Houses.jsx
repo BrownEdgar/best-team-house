@@ -1,4 +1,6 @@
 import { getHouses } from '../../features/houses/housesSlice'
+import HouseCard from '../HouseCard/HouseCard'
+import MoreButton from '../MoreButton/MoreButton'
 import './Houses.scss'
 import { useSelector } from 'react-redux'
 
@@ -10,23 +12,10 @@ export default function Houses() {
         <h1>Best Property Deals</h1>
         {
           houses.map(house => {
-            return <div className="Houses__card" key={house.id}>
-              <div className="Houses__img">
-                <img src={house.img} alt={house.title} />
-              </div>
-              <div className="Houses__content">
-                <h2>{house.title}</h2>
-                <p className='options'>
-                  <span>{house.beds} Beds</span>
-                  <span className='middleSpan'>{house.baths} Baths</span>
-                  <span>{house.area} Sq.Ft</span>
-                </p>
-                <p className='price'>${house.price.toFixed(2)}</p>
-              </div>
-            </div>
+            return <HouseCard key={house.id} house={house} />
           })
         }
-        <button>View All Property</button>
+        <MoreButton text={'View All Property'} />
       </div>
     </div>
   )

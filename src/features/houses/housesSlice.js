@@ -8,7 +8,7 @@ const initialStateValue = [
     baths: 3,
     area: 2532,
     price: 570,
-    img: "../../../public/house-pictures/house1.jpg"
+    img: "/house-pictures/house1.jpg"
   },
   {
     id: nanoid(6),
@@ -17,7 +17,7 @@ const initialStateValue = [
     baths: 3,
     area: 2532,
     price: 570,
-    img: "../../../public/house-pictures/house2.jpg"
+    img: "/house-pictures/house2.jpg"
   },
   {
     id: nanoid(6),
@@ -26,7 +26,7 @@ const initialStateValue = [
     baths: 3,
     area: 2532,
     price: 570,
-    img: "../../../public/house-pictures/house3.jpg"
+    img: "/house-pictures/house3.jpg"
   },
   {
     id: nanoid(6),
@@ -35,7 +35,7 @@ const initialStateValue = [
     baths: 3,
     area: 2532,
     price: 570,
-    img: "../../../public/house-pictures/house4.jpg"
+    img: "/house-pictures/house4.jpg"
   },
   {
     id: nanoid(6),
@@ -44,7 +44,7 @@ const initialStateValue = [
     baths: 3,
     area: 2532,
     price: 570,
-    img: "../../../public/house-pictures/house5.jpg"
+    img: "/house-pictures/house5.jpg"
   },
   {
     id: nanoid(6),
@@ -53,7 +53,7 @@ const initialStateValue = [
     baths: 3,
     area: 2532,
     price: 570,
-    img: "../../../public/house-pictures/house6.jpg"
+    img: "/house-pictures/house6.jpg"
   },
 ]
 
