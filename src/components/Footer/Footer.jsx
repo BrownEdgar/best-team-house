@@ -9,7 +9,6 @@ export default function Footer() {
     <div className='Footer'>
       <div className="Footer__up">
         <div className="container">
-
           <div className="info">
             <img src="/darkLogo.png" alt="logo" />
             <p>Start your search today and find <br /> your dream property!</p>

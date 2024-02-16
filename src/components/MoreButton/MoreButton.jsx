@@ -3,8 +3,8 @@ import './MoreButton.scss'
 
 MoreButton.propTypes = PropTypes.string
 
-export default function MoreButton({ text }) {
+export default function MoreButton({ text, subClass }) {
   return (
-    <button className="MoreButton">{text}</button>
+    <button className={`MoreButton MoreButton-${subClass}`}>{text}</button>
   )
 }

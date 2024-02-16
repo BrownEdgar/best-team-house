@@ -1,0 +1,44 @@
+$price-color: #fb5e16;
+$title-color: #1e2138;
+$border-color: #c4c4c4;
+$options-color: #646464;
+$background-color: #171b2b;
+$text-color: #fff;
+.About {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 500px;
+
+  &__img {
+    width: 40%;
+    height: 100%;
+
+    img {
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+      clip-path: polygon(0% 0%, 0% 100%, 55% 100%, 55% 0%, 100% 0%, 100% 20%, 60% 20%, 60% 100%, 100% 100%, 100% 0%);
+    }
+  }
+
+  &__content {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    h1 {
+      font-size: 50px;
+      line-height: 60px;
+      color: $title-color;
+    }
+    h3 {
+      font-size: 21px;
+      color: $price-color;
+    }
+    p {
+      color: $options-color;
+      margin-bottom: 20px;
+    }
+  }
+}

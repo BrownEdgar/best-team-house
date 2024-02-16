@@ -15,7 +15,7 @@ export default function Houses() {
             return <HouseCard key={house.id} house={house} />
           })
         }
-        <MoreButton text={'View All Property'} />
+        <MoreButton text={'View All Property'} subClass='deals' />
       </div>
     </div>
   )

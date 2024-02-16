@@ -1,22 +1,26 @@
-$price-color: #FB5E16;
-$title-color: #1E2138;
-$border-color: #C4C4C4;
+$price-color: #fb5e16;
+$title-color: #1e2138;
+$border-color: #c4c4c4;
 $options-color: #646464;
-$text-color: #FFFFFF ;
+$text-color: #ffffff;
 
 .MoreButton {
-  display: block;
   cursor: pointer;
   background-color: transparent;
-  padding: 16px 28px;
+  padding: 12px 24px;
   color: $price-color;
   border: 1.5px solid $price-color;
-  grid-column: 3 span;
-  justify-self: center;
   font-weight: 500;
   font-size: 18px;
   transition: 200ms;
-
+  &-about {
+    width: 150px;
+  }
+  &-deals {
+    width: auto;
+    justify-self: center;
+    grid-column: 3 span;
+  }
   &:hover {
     background-color: $price-color;
     color: $text-color;
