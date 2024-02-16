@@ -1,0 +1,24 @@
+$price-color: #FB5E16;
+$title-color: #1E2138;
+$border-color: #C4C4C4;
+$options-color: #646464;
+$text-color: #FFFFFF;
+
+.MoreButton {
+  display: block;
+  cursor: pointer;
+  background-color: transparent;
+  padding: 10px 28px;
+  color: $price-color;
+  border: 1.5px solid $price-color;
+  align-self: flex-start;
+  font-weight: 500;
+  font-size: 18px;
+  transition: 200ms;
+  margin-top: 40px;
+
+  &:hover {
+    background-color: $price-color;
+    color: $text-color;
+  }
+}

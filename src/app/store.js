@@ -1,11 +1,9 @@
 import { configureStore } from '@reduxjs/toolkit';
-import navigationSlice from '../features/navigationSlice';
-import headerSlice from '../features/headerSlice';
+import aboutSlice from '../features/aboutSlice';
 
 const store = configureStore({
   reducer: {
-    navigation:navigationSlice,
-    header:headerSlice
+   about:aboutSlice
   }
 })
 
