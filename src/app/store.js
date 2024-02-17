@@ -5,8 +5,9 @@ import headerSlice from '../features/headerSlice';
 
 const store = configureStore({
   reducer: {
-    navigation:navigationSlice,
-    header:headerSlice
+    navigation: navigationSlice,
+    header: headerSlice,
+    houses: housesSlice
   }
 })
 
