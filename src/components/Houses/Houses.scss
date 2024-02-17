@@ -1,0 +1,21 @@
+$price-color: #FB5E16;
+$title-color: #1E2138;
+$border-color: #C4C4C4;
+$options-color: #646464;
+$text-color: #FFFFFF ;
+
+.Houses {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 25px;
+  row-gap: 50px;
+  justify-content: center;
+
+  &>h1 {
+    color: $title-color;
+    font-size: 60px;
+    grid-column: 3 span;
+    text-align: center;
+  }
+
+}
