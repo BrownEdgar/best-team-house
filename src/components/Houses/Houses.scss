@@ -1,21 +1,28 @@
-$price-color: #FB5E16;
-$title-color: #1E2138;
-$border-color: #C4C4C4;
+@import "../../sass/mixins";
+
+$price-color: #fb5e16;
+$title-color: #1e2138;
+$border-color: #c4c4c4;
 $options-color: #646464;
-$text-color: #FFFFFF ;
+$text-color: #ffffff;
 
 .Houses {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
   column-gap: 25px;
   row-gap: 50px;
-  justify-content: center;
-
-  &>h1 {
-    color: $title-color;
-    font-size: 60px;
-    grid-column: 3 span;
-    text-align: center;
+  justify-items: center;
+  grid-template-columns: repeat(3, 1fr);
+  @include laptop {
+    grid-template-columns: repeat(2, 1fr);
+    display: grid;
+    row-gap: 30px;
+    background-color: rgb(211, 205, 211);
   }
 
+  & > h1 {
+    color: $title-color;
+    font-size: 60px;
+
+    text-align: center;
+  }
 }

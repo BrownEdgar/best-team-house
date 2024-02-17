@@ -1,6 +1,6 @@
-$price-color: #FB5E16;
-$title-color: #1E2138;
-$border-color: #C4C4C4;
+$price-color: #fb5e16;
+$title-color: #1e2138;
+$border-color: #c4c4c4;
 $options-color: #646464;
 
 .HouseCard {
@@ -39,7 +39,7 @@ $options-color: #646464;
         position: relative;
 
         &::after {
-          content: '';
+          content: "";
           width: 1px;
           height: 14px;
           background-color: $border-color;
@@ -49,7 +49,7 @@ $options-color: #646464;
         }
 
         &::before {
-          content: '';
+          content: "";
           width: 1px;
           height: 14px;
           background-color: $border-color;

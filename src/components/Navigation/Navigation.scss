@@ -1,35 +1,39 @@
-$price-color: #FB5E16;
-$title-color: #1E2138;
-$border-color: #C4C4C4;
+@import "../../sass/mixins";
+
+$price-color: #fb5e16;
+$title-color: #1e2138;
+$border-color: #c4c4c4;
 $options-color: #646464;
-$background-color: #171B2B;
+$background-color: #171b2b;
 $text-color: #fff;
 
 .Navigation {
+  display: flex;
+  gap: 120px;
+  align-items: center;
+
+  &__left {
+    img {
+      width: 90px;
+      cursor: pointer;
+    }
+  }
+
+  &__right {
     display: flex;
-    gap: 120px;
-    align-items: center;
-
-    &__left {
-        img {
-            width: 90px;
-            cursor: pointer;
-        }
+    gap: 40px;
+    @include laptop {
+      gap: 20px;
     }
 
-    &__right {
-        display: flex;
-        gap: 40px;
+    li {
+      text-transform: uppercase;
+      cursor: pointer;
+      transition: 200ms;
 
-        li {
-            text-transform: uppercase;
-            cursor: pointer;
-            transition: 200ms;
-
-            &:hover {
-                color: $price-color;
-            }
-
-        }
+      &:hover {
+        color: $price-color;
+      }
     }
+  }
 }

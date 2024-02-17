@@ -8,8 +8,8 @@ export default function Houses() {
   const houses = useSelector(getHouses)
   return (
     <div className='container'>
+      <h1>Best Property Deals</h1>
       <div className="Houses">
-        <h1>Best Property Deals</h1>
         {
           houses.map(house => {
             return <HouseCard key={house.id} house={house} />

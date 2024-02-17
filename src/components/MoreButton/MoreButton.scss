@@ -1,3 +1,5 @@
+@import "../../sass/mixins";
+
 $price-color: #fb5e16;
 $title-color: #1e2138;
 $border-color: #c4c4c4;
@@ -20,6 +22,9 @@ $text-color: #ffffff;
     width: auto;
     justify-self: center;
     grid-column: 3 span;
+    @include laptop {
+      grid-column: 2 span;
+    }
   }
   &:hover {
     background-color: $price-color;
