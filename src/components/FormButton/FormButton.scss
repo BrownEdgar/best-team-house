@@ -1,0 +1,18 @@
+$price-color: #FB5E16;
+$title-color: #1E2138;
+$border-color: #C4C4C4;
+$options-color: #646464;
+$background-color: #171B2B;
+$text-color: #fff;
+.FormButton{
+    border: none;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 10px;
+    background-color: $price-color;
+    color: $text-color;
+    padding: 12px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
