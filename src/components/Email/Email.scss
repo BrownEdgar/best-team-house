@@ -1,0 +1,48 @@
+$price-color: #FB5E16;
+$title-color: #1E2138;
+$border-color: #C4C4C4;
+$options-color: #646464;
+$background-color: #171B2B;
+$backgroundLight-color: #F2F2F2;
+$text-color: #fff;
+
+.Email {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  padding: 80px 0;
+  width: 676px;
+  margin: 0 auto;
+
+  h2 {
+    font-size: 50px;
+    color: $title-color;
+    letter-spacing: 2px;
+  }
+
+  p {
+    color: $options-color;
+    text-align: center;
+  }
+
+  form {
+    position: relative;
+    margin-top: 30px;
+    width: 80%;
+
+    input {
+      width: 100%;
+      background-color: $backgroundLight-color;
+      font-size: 18px;
+      padding: 15px 25px;
+      border-radius: 10px;
+      border: none;
+
+      &:focus {
+        outline: none;
+      }
+    }
+  }
+}
