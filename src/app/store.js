@@ -1,8 +1,6 @@
 import { configureStore } from '@reduxjs/toolkit';
 import infoSlice from '../features/info/infoSlice';
-import logoSlice from '../features/info/logoSlice';
-
-
+import logoSlice from '../features/logo/logoSlice';
 
 const store = configureStore({
   reducer: {

@@ -8,7 +8,8 @@ export default function App() {
   const logos = useSelector((state) => state.logos.img)
   return (
     <div className='App'>
-      <Infos/>
+      <Infos />
+      <Logos />
     </div>
   )
 }

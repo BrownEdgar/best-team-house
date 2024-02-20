@@ -1,4 +1,8 @@
 import './Logos.scss'
+import logoSlice from '../../features/logo/logoSlice'
+
+
+
 export default function Logos({logos}){
     return(
         <div>
