@@ -4,6 +4,7 @@ import Header from './components/Header/Header'
 import Footer from './components/Footer/Footer'
 import About from './components/About/About'
 import Sliders from './components/Sliders'
+import Email from './components/Email/Email'
 
 export default function App() {
   return (
@@ -12,8 +13,8 @@ export default function App() {
       <About />
       <Houses />
       <Sliders />
+      <Email />
       <Footer />
-
     </div>
   )
 }

@@ -6,6 +6,7 @@ import headerSlice from '../features/headerSlice';
 import footerSlice from '../features/footer/footerSlice';
 import aboutSlice from '../features/about/aboutSlice';
 import sliderSlice from '../features/sliderSlice';
+import emailSlice from '../features/email/emailSlice';
 
 const store = configureStore({
   reducer: {
@@ -14,7 +15,8 @@ const store = configureStore({
     houses: housesSlice,
     footer: footerSlice,
     about: aboutSlice,
-    slider: sliderSlice
+    slider: sliderSlice,
+    email: emailSlice
   }
 })
 
