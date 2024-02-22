@@ -1,15 +1,15 @@
-$price-color: #FB5E16;
-$title-color: #1E2138;
-$border-color: #C4C4C4;
+$price-color: #fb5e16;
+$title-color: #1e2138;
+$border-color: #c4c4c4;
 $options-color: #646464;
-$background-color: #171B2B;
+$background-color: #171b2b;
 $text-color: #fff;
 
 .HeaderBG {
   background-color: $background-color;
   color: $text-color;
   background-size: 42% auto;
-  background-image: url(../../../public/header.jpg);
+  background-image: url(./header.jpg);
   background-repeat: no-repeat;
   background-position: right;
 
