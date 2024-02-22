@@ -6,7 +6,7 @@ export default function Footer() {
   const data = useSelector(state => state.footer)
 
   return (
-    <div className='Footer'>
+    <footer className='Footer'>
       <div className="Footer__up">
         <div className="container">
           <div className="info">
@@ -46,6 +46,6 @@ export default function Footer() {
         </div>
       </div>
 
-    </div>
+    </footer>
   )
 }

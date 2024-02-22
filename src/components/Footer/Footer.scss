@@ -3,10 +3,11 @@ $title-color: #1E2138;
 $border-color: #C4C4C4;
 $options-color: #646464;
 $background-color: #171B2B;
+$backgroundLight-color: #F2F2F2;
 $text-color: #fff;
 
 .Footer {
-
+background-color: $backgroundLight-color;
   &__up {
     padding: 70px 0;
 
