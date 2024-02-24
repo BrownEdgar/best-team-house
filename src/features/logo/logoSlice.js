@@ -21,7 +21,6 @@ const logoSlice = createSlice({
                }],
             loading: false,
             error: null,
-            
         },
         reducers: {}
 })

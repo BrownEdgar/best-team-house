@@ -1,8 +1,5 @@
 import { createAsyncThunk, createSlice } from "@reduxjs/toolkit"
-import getInfo from "./PostsAPI"
 
-
-export const getInfoAsync = createAsyncThunk('posts/getAsync', getInfo)
 
 const infoSlice = createSlice({
     name: 'info',
@@ -13,7 +10,7 @@ const infoSlice = createSlice({
             "title": "Meadow view",
             "price": "$570.00",
             "state": "New",
-            "bads": "3 Bads",
+            "beds": "3 Beds",
             "baths": "3 Baths",
             "sqft": "2,532 Sq.Ft"
         },
